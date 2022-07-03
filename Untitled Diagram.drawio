@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-03T03:58:00.256Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="gSw_RSp5lExsogj5-04H" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-03T04:01:42.392Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="iuieP-p6vIhrEv3kPnC5" version="20.0.4" type="github">
   <diagram id="_-JrjZ2dv5hbRWvAeERj" name="Страница 1">
-    <mxGraphModel dx="2184" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1357" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,13 +53,13 @@
           <mxGeometry x="774.25" y="80" width="137.5" height="177.5" as="geometry" />
         </mxCell>
         <mxCell id="vsuYrxshnyL55VWC4-Kn-26" value="Guest Container&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#FFD470;gradientColor=none;fontSize=14;strokeColor=none;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="56" width="308" height="255" as="geometry" />
+          <mxGeometry x="10" y="20" width="270" height="255" as="geometry" />
         </mxCell>
         <mxCell id="vsuYrxshnyL55VWC4-Kn-27" value="Client" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.pda;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="40" y="92" width="40" height="81.33" as="geometry" />
+          <mxGeometry x="220" y="56" width="40" height="81.33" as="geometry" />
         </mxCell>
         <mxCell id="vsuYrxshnyL55VWC4-Kn-28" value="Client" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.laptop_2;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-140.0000000000001" y="181" width="116" height="86.5" as="geometry" />
+          <mxGeometry x="39.999999999999886" y="145" width="116" height="86.5" as="geometry" />
         </mxCell>
         <mxCell id="vsuYrxshnyL55VWC4-Kn-29" value="Guest MNC" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;fontSize=14;strokeColor=#b85450;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="10" y="824" width="308" height="370" as="geometry" />
@@ -140,6 +140,11 @@
             <mxPoint x="230" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="vsuYrxshnyL55VWC4-Kn-76" value="Trunk" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vsuYrxshnyL55VWC4-Kn-63">
+          <mxGeometry x="0.2022" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="vsuYrxshnyL55VWC4-Kn-64" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.96;exitY=0.607;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vsuYrxshnyL55VWC4-Kn-56" target="vsuYrxshnyL55VWC4-Kn-22">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="730" y="650" as="sourcePoint" />
@@ -208,6 +213,29 @@
             <Array as="points">
               <mxPoint x="690" y="610" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vsuYrxshnyL55VWC4-Kn-77" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.228;entryY=0.685;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.895;exitY=0.586;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vsuYrxshnyL55VWC4-Kn-20" target="vsuYrxshnyL55VWC4-Kn-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="240" as="sourcePoint" />
+            <mxPoint x="530" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vsuYrxshnyL55VWC4-Kn-78" value="Vlan30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vsuYrxshnyL55VWC4-Kn-77">
+          <mxGeometry x="-0.1625" y="2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vsuYrxshnyL55VWC4-Kn-79" value="Vlan 10" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.221;entryY=0.726;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.895;exitY=0.643;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vsuYrxshnyL55VWC4-Kn-20" target="vsuYrxshnyL55VWC4-Kn-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="320" as="sourcePoint" />
+            <mxPoint x="520" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vsuYrxshnyL55VWC4-Kn-80" value="Vlan40" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.159;entryY=0.277;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.999;exitY=0.686;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vsuYrxshnyL55VWC4-Kn-26" target="vsuYrxshnyL55VWC4-Kn-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="170" as="sourcePoint" />
+            <mxPoint x="410" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
